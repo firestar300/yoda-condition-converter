@@ -1,0 +1,61 @@
+@import 'tailwindcss';
+
+@theme {
+	--font-display: 'Orbitron', system-ui, sans-serif;
+	--font-body: 'Space Mono', monospace;
+
+	--color-yoda-green: #9acd32;
+	--color-yoda-dark: #556b2f;
+	--color-swamp: #2d3a1f;
+	--color-force-glow: #7cfc00;
+	--color-dark-side: #0a0f05;
+	--color-lightsaber: #00ff41;
+}
+
+@keyframes float {
+	0%,
+	100% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(-10px);
+	}
+}
+
+@keyframes glow {
+	0%,
+	100% {
+		box-shadow:
+			0 0 5px var(--color-force-glow),
+			0 0 10px var(--color-force-glow),
+			0 0 15px var(--color-force-glow);
+	}
+	50% {
+		box-shadow:
+			0 0 10px var(--color-force-glow),
+			0 0 20px var(--color-force-glow),
+			0 0 30px var(--color-force-glow);
+	}
+}
+
+@keyframes pulse-border {
+	0%,
+	100% {
+		border-color: var(--color-yoda-green);
+	}
+	50% {
+		border-color: var(--color-force-glow);
+	}
+}
+
+.animate-float {
+	animation: float 3s ease-in-out infinite;
+}
+
+.animate-glow {
+	animation: glow 2s ease-in-out infinite;
+}
+
+.animate-pulse-border {
+	animation: pulse-border 2s ease-in-out infinite;
+}
