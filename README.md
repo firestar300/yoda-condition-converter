@@ -74,11 +74,10 @@ The project is automatically deployed to GitHub Pages via GitHub Actions on ever
 
 ## License
 
-MIT © [Mitori](https://github.com/firestar300)
+MIT © [Milan Ricoul](https://milanricoul.com)
 
 ---
 
 <p align="center">
-  <em>With the Force, made this was. May your conditions be Yoda-fied. 🌟</em>
+  <em>Made with the Force by <a href="https://milanricoul.com">@firestar300</a> 🌟</em>
 </p>
-
