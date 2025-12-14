@@ -8,13 +8,13 @@
 	"theme_color": "#0a0f05",
 	"icons": [
 		{
-			"src": "/yoda-condition-converter/icon-192.png",
-			"sizes": "192x192",
+			"src": "/yoda-condition-converter/favicon-32x32.png",
+			"sizes": "32x32",
 			"type": "image/png"
 		},
 		{
-			"src": "/yoda-condition-converter/icon-512.png",
-			"sizes": "512x512",
+			"src": "/yoda-condition-converter/favicon-16x16.png",
+			"sizes": "16x16",
 			"type": "image/png"
 		}
 	]
